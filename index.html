@@ -11,18 +11,20 @@
 <body>
   <div class="container col-lg-12 p-10">
     <div class="btsoverride">
-    <h1>Search Giphy</h1>
-    <form id="gifForm">
-      <label for="searchGif">Search for a gif</label>
-      <input type="text" id=searchGif>
-      <input id="findGif" type="submit" value="Gif Search">
-    </form>
-    <!-- new gif buttons will appear here  -->
-    <div id="gifButtons" class="container"></div>
+      <h1>Search Giphy</h1>
+      <form id="gifForm">
+        <label for="searchGif">Search for a gif: </label>
+        <input type="text" id=searchGif>
+        <input id="findGif" type="submit" value="Gif Search">
+      </form>
+      <!-- new gif buttons will appear here  -->
+      <div class="positions col-sm-4">
+        <div id="gifButtons" class="container"></div>
+      </div>
+      <hr>
     </div>
-    <hr>
+      <div id="gifs"></div>
     <!-- gifs will appear here -->
-    <div id="gifs"></div>
   </div>
   <script src='https://code.jquery.com/jquery-3.3.1.js' integrity='sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=' crossorigin='anonymous'></script>
   <script src="./app.js"></script>

@@ -5,3 +5,7 @@
 .btsoverride {
   background-color: #f5f9fa;
 }
+
+.positions {
+  position: relative;
+}
