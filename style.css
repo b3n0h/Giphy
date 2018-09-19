@@ -9,3 +9,7 @@
 .positions {
   position: relative;
 }
+
+#gifButtons {
+  padding: 10px;
+}
