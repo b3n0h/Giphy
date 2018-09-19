@@ -17,7 +17,6 @@ function displayGif (gif) {
       `)
     })
     $('#searchGif').val('')
-    console.log(r);
   })
 }
 
@@ -45,6 +44,7 @@ $('#findGif').on('click', function () {
   event.preventDefault()
   gif = $('#searchGif').val()
   newButtons(gif)
+  $('#searchGif').val('')
 })
 
 // handles new gif button click

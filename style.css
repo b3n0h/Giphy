@@ -5,3 +5,11 @@
 .btsoverride {
   background-color: #f5f9fa;
 }
+
+.positions {
+  position: relative;
+}
+
+#gifButtons {
+  padding: 10px;
+}
